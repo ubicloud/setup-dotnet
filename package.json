@@ -16,9 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/setup-dotnet.git"
+    "url": "git+https://github.com/ubicloud/setup-dotnet.git"
   },
   "keywords": [
+    "ubicloud",
     "actions",
     "dotnet",
     "setup"
@@ -26,7 +27,7 @@
   "author": "GitHub",
   "license": "MIT",
   "dependencies": {
-    "@actions/cache": "^3.2.4",
+    "@actions/cache": "npm:@ubicloud/cache@3.2.403",
     "@actions/core": "^1.10.0",
     "@actions/exec": "^1.1.1",
     "@actions/github": "^6.0.0",
